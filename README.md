@@ -14,10 +14,6 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-<a>
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&?theme=dark&layout=compact)
-</a>
-<a>
-  ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fishwww-ww)
-</a>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&?theme=dark&layout=compact)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fishwww-ww)
 <img src="https://github.com/fishwww-ww/fishwww-ww/blob/main/profile-3d-contrib/profile-night-green.svg" />
