@@ -15,14 +15,20 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&theme=dark&layout=compact)
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fishwww-ww&show_icons=true&theme=github_dark)
+<div style="display: flex; align-items: center;">
+</div>
 -->
 
-<div style="display: flex; align-items: center;">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&theme=github_dark&layout=compact&hide_border=true&card_height=300" />
-  </a>
-  <a href="https://github.com/anuraghazra/convoychat">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=fishwww-ww&show_icons=true&theme=github_dark&hide_border=true" />
-  </a>
-</div>
+<table><tr>
+  <td>
+    <a href="https://github.com/anuraghazra/github-readme-stats">
+      <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&theme=github_dark&layout=compact&hide_border=true&card_height=300" />
+    </a>
+  </td>
+  <td>
+    <a href="https://github.com/anuraghazra/convoychat">
+      <img align="center" src="https://github-readme-stats.vercel.app/api?username=fishwww-ww&show_icons=true&theme=github_dark&hide_border=true" />
+    </a>
+  </td>
+</tr></table>
 <img src="https://github.com/fishwww-ww/fishwww-ww/blob/main/profile-3d-contrib/profile-night-green.svg" />
