@@ -13,7 +13,14 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&theme=dark&layout=compact)
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fishwww-ww&show_icons=true&theme=github_dark)
 -->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&?theme=dark&layout=compact)
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=fishwww-ww)
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=fishwww-ww&theme=dark&layout=compact" />
+</a>
+<a href="https://github.com/anuraghazra/convoychat">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=fishwww-ww&show_icons=true&theme=github_dark" />
+</a>
 <img src="https://github.com/fishwww-ww/fishwww-ww/blob/main/profile-3d-contrib/profile-night-green.svg" />
