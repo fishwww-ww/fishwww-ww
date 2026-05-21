@@ -33,7 +33,7 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_recent_load: 400
           plugin_languages_recent_days: 14
-          plugin_lines: yes
+          # plugin_lines: yes
           # plugin_wakatime: yes
           # plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           # plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
