@@ -14,11 +14,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: fishwww-ww
           template: classic
-          # 在 base 中加入 metadata，并精简了排序配置
+          # 在 base 中加入 metadata
           base: header, activity, community, repositories, metadata
           config_display: large
-          # 仅保留你当前启用的 isocalendar, languages 和 followup 模块排序
-          config_order: base.header, isocalendar, languages, followup
+          # ✨ 核心改动：把新加入的 activity 放在 followup 后面，顺畅承接视觉排版
+          config_order: base.header, isocalendar, languages, followup, activity
           config_timezone: Asia/Shanghai
           
           # ==================== 你原本的注释代码（保持不动） ====================
@@ -55,3 +55,10 @@ jobs:
           # 开源参与度追踪（展示你作为 Contributor 的 Issue 和 PR 进展）
           plugin_followup: yes
           plugin_followup_sections: newsletters, user # 展示你关注的动态和你自己的进展
+
+          # ==================== ✨ 新增的近期动态流模块 ====================
+          # 展示你最近在开源社区的真实搬砖动态
+          plugin_activity: yes
+          plugin_activity_limit: 5              # 保持精致，最长展示最近 5 条动态
+          plugin_activity_days: 14              # 只追踪近两周活跃，确保时效性
+          plugin_activity_filter: push, issue, pr, fork # 过滤掉无聊的 follow 关注，只留写代码/开工单等硬核动态
