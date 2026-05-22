@@ -16,8 +16,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_display: large
-          # 移除了 achievements 和 stars，只保留 base、日历、语言和 followup 追踪
-          config_order: base.header, isocalendar, languages, followup 
+          config_order: base.header, isocalendar, languages, base.activity, base.community, followup, reactions
           config_timezone: Asia/Shanghai
           
           # ==================== 你原本的注释代码（保持不动） ====================
@@ -30,7 +29,6 @@ jobs:
           # plugin_topics_limit: 0
           # plugin_topics_mode: icons
           # ==================================================================
-
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           
@@ -40,16 +38,15 @@ jobs:
           plugin_languages_indepth: yes
           plugin_languages_recent_load: 200                      
           plugin_languages_recent_days: 14
-
           # ==================== 你原本的注释代码（保持不动） ====================
           # plugin_lines: yes
           # plugin_wakatime: yes
           # plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           # plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           # ==================================================================
-
           repositories_affiliations: owner,collaborator
-
           # ==================== 🛠 Followup 模块调优 ====================
           plugin_followup: yes
           plugin_followup_sections: newsletters, user
+
+          plugin_reactions: yes
