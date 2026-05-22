@@ -14,14 +14,11 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: fishwww-ww
           template: classic
-          # 在 base 中加入 metadata
           base: header, activity, community, repositories, metadata
           config_display: large
-          # ✨ 核心改动：把新加入的 activity 放在 followup 后面，顺畅承接视觉排版
-          config_order: base.header, isocalendar, languages, followup, activity
+          config_order: base.header, isocalendar, languages
           config_timezone: Asia/Shanghai
           
-          # ==================== 你原本的注释代码（保持不动） ====================
           # plugin_habits: yes
           # plugin_habits_days: 14
           # plugin_habits_facts: no
@@ -30,7 +27,6 @@ jobs:
           # plugin_topics: yes
           # plugin_topics_limit: 0
           # plugin_topics_mode: icons
-          # ==================================================================
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -42,23 +38,9 @@ jobs:
           plugin_languages_recent_load: 200                      
           plugin_languages_recent_days: 14
 
-          # ==================== 你原本的注释代码（保持不动） ====================
           # plugin_lines: yes
           # plugin_wakatime: yes
           # plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
           # plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          # ==================================================================
 
           repositories_affiliations: owner,collaborator
-
-          # ==================== ✨ 保留的开源参与度追踪模块 ====================
-          # 开源参与度追踪（展示你作为 Contributor 的 Issue 和 PR 进展）
-          plugin_followup: yes
-          plugin_followup_sections: newsletters, user # 展示你关注的动态和你自己的进展
-
-          # ==================== ✨ 新增的近期动态流模块 ====================
-          # 展示你最近在开源社区的真实搬砖动态
-          plugin_activity: yes
-          plugin_activity_limit: 5              # 保持精致，最长展示最近 5 条动态
-          plugin_activity_days: 14              # 只追踪近两周活跃，确保时效性
-          plugin_activity_filter: push, issue, pr, fork # 过滤掉无聊的 follow 关注，只留写代码/开工单等硬核动态
