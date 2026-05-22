@@ -30,4 +30,4 @@
 </tr></table>
 <img src="https://github.com/fishwww-ww/fishwww-ww/blob/main/profile-3d-contrib/profile-night-green.svg" />
 
-![Metrics](https://github.com/fishwww-ww/fishwww-ww/raw/main/github-metrics.svg)
+<img src="./github-metrics.svg" alt="Metrics">
