@@ -53,5 +53,3 @@ jobs:
           # ==================== 🛠 Followup 模块调优 ====================
           plugin_followup: yes
           plugin_followup_sections: newsletters, user
-          # 开启 indepth 能够让数据展示更加深入精细，有时能改善单纯横条靠左的呆板布局
-          plugin_followup_indepth: yes
